@@ -22,7 +22,7 @@
 
 ​	Mybatis的一级缓存是sqlSession级别的，二级缓存是mapper级别的。如果不同mapper的namespace相同，这两个mapper将缓存同一个区域
 
-​    当做增删改查并进行事务提交时，一级缓存和二级缓存会被刷新，调用clearCache方法可以手动删除缓存。但是二级缓存可以通过设置flushCache来设置是否刷新缓存。
+​    当做增删改并进行事务提交时，一级缓存和二级缓存会被刷新，调用clearCache方法可以手动删除缓存。但是二级缓存可以通过设置flushCache来设置是否刷新缓存。
 
 5、简述Mybatis的插件运行原理，以及如何编写一个插件？
 
